@@ -1,69 +1,69 @@
-# React + TypeScript + Vite
+# TRACKER-VEHICLE-WEB
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+*Drive Fleet Efficiency with Real-Time Precision*
 
-Currently, two official plugins are available:
+[![last commit](https://img.shields.io/github/last-commit/adit1602/tracker-vehicle-web)](https://github.com/adit1602/tracker-vehicle-web)
+![today](https://img.shields.io/badge/last%20update-today-blue)
+![typescript](https://img.shields.io/badge/typescript-89.6%25-blue)
+![languages](https://img.shields.io/github/languages/count/adit1602/tracker-vehicle-web)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Built with the tools and technologies:
 
-## Expanding the ESLint configuration
+![JSON](https://img.shields.io/badge/-JSON-black?logo=json)
+![Markdown](https://img.shields.io/badge/-Markdown-000000?logo=markdown)
+![npm](https://img.shields.io/badge/-npm-CB3837?logo=npm)
+![Autoprefixer](https://img.shields.io/badge/-Autoprefixer-DD3735?logo=autoprefixer)
+![PostCSS](https://img.shields.io/badge/-PostCSS-DD3A0A?logo=postcss)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript)
+![React](https://img.shields.io/badge/-React-61DAFB?logo=react)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript)
+![Vite](https://img.shields.io/badge/-Vite-646CFF?logo=vite)
+![ESLint](https://img.shields.io/badge/-ESLint-4B32C3?logo=eslint)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Table of Contents
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- [Overview](#overview)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Testing](#testing)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Overview
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+**tracker-vehicle-web** is a modern, React-based web application designed for vehicle fleet management and real-time telemetry visualization. Built with a focus on performance, maintainability, and user experience, it leverages cutting-edge tools like Vite, TypeScript, Tailwind CSS, and Radix UI components.
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Why `tracker-vehicle-web`?
+
+This project empowers developers to build scalable, styled, and interactive vehicle tracking dashboards.  
+The core features include:
+
+- 🧠 **Reusable UI Components**: Modular buttons, alerts, cards, and toasts for consistent UI design.
+- 🚀 **Fast Development Environment**: Optimized with Vite, TypeScript, and React for rapid iteration.
+- 🧩 **Customizable Styling**: Tailwind CSS with theme extensions and utility-first approach.
+- 📊 **Real-Time Data Handling**: State management for vehicle telemetry and fleet overview.
+- 👨‍💻 **Developer-Centric Architecture**: Clear configurations, aliasing, and strict type safety for maintainability.
+- 📢 **Robust Error & Feedback Systems**: User notifications and error handling for seamless UX.
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+This project requires the following dependencies:
+
+- **Programming Language**: TypeScript  
+- **Package Manager**: Npm
+
+### Installation
+
+Build `tracker-vehicle-web` from the source and install dependencies:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/adit1602/tracker-vehicle-web
