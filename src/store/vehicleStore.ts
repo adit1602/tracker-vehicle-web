@@ -92,7 +92,7 @@ const mockTelemetryData: Record<number, vehicleTelemetry> = {
 const mockApiDelay = (ms: number) =>
   new Promise((resolve) => setTimeout(resolve, ms));
 
-export const useVehicleStore = create<VehicleStore>((set, get) => ({
+export const useVehicleStore = create<VehicleStore>((set) => ({
   vehicles: [],
   selectedVehicle: null,
   isLoading: false,

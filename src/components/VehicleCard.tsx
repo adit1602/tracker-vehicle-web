@@ -27,9 +27,9 @@ const getStatusColor = (status: Vehicle["status"]) => {
     case "ACTIVE":
       return "bg-green-500 text-green-50";
     case "INACTIVE":
-      return "bg-primary-50 text-primary-50";
+      return "bg-gray-500 text-gray-50";
     case "MAINTENANCE":
-      return "bg-yellow-600 text-yellow-50";
+      return "bg-yellow-500 text-yellow-50";
     default:
       return "text-muted-foreground";
   }
@@ -74,7 +74,7 @@ export const VehicleCard = ({ vehicle }: VehicleCardProps) => {
             <Clock className="h-4 w-4 text-muted-foreground" />
             <div>
               <p className="text-sm text-muted-foreground">Last Update</p>
-              <p className="text-sm font-medium text-foreground">
+              <p className="text-sm font-medium text-muted-foreground">
                 {formatDate(vehicle.updated_at)}
               </p>
             </div>

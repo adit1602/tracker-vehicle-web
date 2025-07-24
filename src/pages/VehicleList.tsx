@@ -39,10 +39,10 @@ export const VehicleList = () => {
               </div>
               <div>
                 <h1 className="text-2xl font-bold text-foreground">
-                  Vehicle Fleet
+                  Vehicle Tracker Dashboard
                 </h1>
                 <p className="text-muted-foreground">
-                  Monitor and manage your vehicle fleet
+                  Monitor and manage your vehicle
                 </p>
               </div>
             </div>

@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { useParams, Link, useNavigate } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { useVehicleStore } from "@/store/vehicleStore";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -173,7 +173,7 @@ export const VehicleDetail = () => {
           <Card className="bg-gradient-card border-border">
             <CardHeader className="pb-3">
               <CardTitle className="flex items-center space-x-2 text-foreground">
-                <Fuel className="h-5 w-5 text-accent" />
+                <Fuel className="h-5 w-5 text-metric-fuel" />
                 <span>Fuel Level</span>
               </CardTitle>
             </CardHeader>
