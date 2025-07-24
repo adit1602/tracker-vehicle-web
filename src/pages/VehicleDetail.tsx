@@ -47,15 +47,15 @@ export const VehicleDetail = () => {
   };
 
   const getFuelLevelColor = (level: number) => {
-    if (level > 50) return "text-status-active";
-    if (level > 20) return "text-status-warning";
-    return "text-status-danger";
+    if (level > 50) return "text-green-500";
+    if (level > 20) return "text-yellow-500";
+    return "text-red-500";
   };
 
   const getFuelLevelBg = (level: number) => {
-    if (level > 50) return "bg-status-active";
-    if (level > 20) return "bg-status-warning";
-    return "bg-status-danger";
+    if (level > 50) return "bg-green-500";
+    if (level > 20) return "bg-yellow-500";
+    return "bg-red-500";
   };
 
   if (isLoading) {

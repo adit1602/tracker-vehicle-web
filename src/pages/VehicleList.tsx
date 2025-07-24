@@ -50,12 +50,12 @@ export const VehicleList = () => {
             <div className="flex items-center space-x-6">
               <div className="text-center">
                 <div className="flex items-center space-x-2">
-                  <Activity className="h-4 w-4 text-status-active" />
-                  <span className="text-2xl font-bold text-status-active">
+                  <Activity className="h-4 w-4 text-status-active text-green-600" />
+                  <span className="text-2xl font-bold text-status-active text-green-500">
                     {activeVehicles}
                   </span>
                 </div>
-                <p className="text-sm text-muted-foreground">Active</p>
+                <p className="text-sm text-green-500">Active</p>
               </div>
               <div className="text-center">
                 <div className="flex items-center space-x-2">
