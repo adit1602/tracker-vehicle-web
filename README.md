@@ -1,3 +1,4 @@
+
 # TRACKER-VEHICLE-WEB
 
 *Drive Fleet Efficiency with Real-Time Precision*
@@ -67,3 +68,38 @@ Build `tracker-vehicle-web` from the source and install dependencies:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/adit1602/tracker-vehicle-web
+   ```
+
+2. **Navigate to the project directory**:
+   ```bash
+   cd tracker-vehicle-web
+   ```
+
+3. **Install the dependencies**:
+   ```bash
+   npm install
+   ```
+
+---
+
+### Usage
+
+Run the project with:
+
+```bash
+npm run dev
+```
+
+---
+
+### Testing
+
+`tracker-vehicle-web` uses the `{test_framework}` test framework. Run the test suite with:
+
+```bash
+npm test
+```
+
+---
+
+🔙 Return
