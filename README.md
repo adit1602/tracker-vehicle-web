@@ -79,6 +79,16 @@ Build `tracker-vehicle-web` from the source and install dependencies:
    ```bash
    npm install
    ```
+---
+
+## Deployment
+
+This project is deployed on **Vercel**.  
+🌐 **Live URL**: [tracker-vehicle-web.vercel.app](https://tracker-vehicle-web-ncbq-ns9e3yfld-adit1602s-projects.vercel.app)
+
+Hosted by [Vercel](https://vercel.com)
+
+![Vercel](https://img.shields.io/badge/Deploy-Vercel-000?logo=vercel)
 
 ---
 
