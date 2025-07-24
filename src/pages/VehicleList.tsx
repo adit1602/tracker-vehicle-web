@@ -3,7 +3,7 @@ import { useVehicleStore } from "@/store/vehicleStore";
 import { VehicleCard } from "@/components/VehicleCard";
 import { LoadingSpinner } from "@/components/LoadingSpinner";
 import { Car, Activity } from "lucide-react";
-import { ErrorAlert } from "@/pages/ErrorAlert";
+import { ErrorAlert } from "@/components/ErrorAlert";
 
 export const VehicleList = () => {
   const { vehicles, isLoading, error, fetchVehicles, clearError } =
