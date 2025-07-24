@@ -1,5 +1,3 @@
-import type { LargeNumberLike } from "crypto";
-
 export interface Vehicle {
   id: number;
   name: string;
@@ -21,7 +19,7 @@ export interface vehicleTelemetry {
 export interface VehicleStore {
   vehicles: Vehicle[];
   selectedVehicle: vehicleTelemetry | null;
-  loading: boolean;
+  isLoading: boolean;
   error: string | null;
   fetchVehicles: () => Promise<void>;
   fetchVehicleDetail: (id: number) => Promise<void>;
